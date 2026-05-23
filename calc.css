@@ -1,0 +1,48 @@
+button{
+    width:70px;
+    height:70px;
+    border-radius:35px;
+    margin: 5px;
+    background-color: rgba(112, 112, 112, 0.5);
+    border-style: none;
+    box-shadow: inset 0 0 10px white;
+    text-align: center;
+}
+body{
+    
+    border: 3px solid black;
+    padding: 5px;
+    background-color: rgb(24, 24, 24);
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#calc-input{
+    width:320px;
+    height:130px;
+    
+}
+button:hover{
+    box-shadow: inset 0 0 10px white, 0px 0px 70px 15px white;
+}
+*{
+    font-size: 20px;
+    color:white;
+    
+}
+input{
+    background-color: black;
+    margin-bottom: 7px;
+    font-size:30px;
+}
+#equal{
+   box-shadow: inset 0 0 10px white; 
+   background-color: orange;
+}
+#equal:hover{
+    box-shadow: inset 0 0 10px white, 0px 0px 70px 15px orange;
+}
